@@ -8,6 +8,8 @@
 #ifndef VGA_H_
 #define VGA_H_
 
+#include "gpio.h"
+
 // VGA Specific definitions
 #define VGA_PIN_DIRS        GPIO_DIR67
 #define VGA_PIN_DATA        GPIO_OUT_DATA67
